@@ -2,6 +2,8 @@
 
 Srovnání ETF obchodovaných na NYSE pro českého drobného investora z mobilní reklamy. „Poplatkoměr“ je vymyšlený pracovní název. Statický web (bez build kroku, bez externích požadavků) + 2 Vercel funkce.
 
+**Živý web:** [varianta A](https://poplatkomer-1z6e.vercel.app/?v=a), [varianta B](https://poplatkomer-1z6e.vercel.app/?v=b)
+
 ## Rychlý start
 | Co | Příkaz |
 |---|---|
@@ -45,7 +47,7 @@ Reklamy: [A](ads/export/reklama-a-nahled-prispevku.png), [B](ads/export/reklama-
 | Titulek | Kolik stojí poplatky ETF za 20 let? | Americké ETF a jejich evropští dvojníci |
 | Popis | Data ze stránek správců fondů | Poplatky u 5 párů fondů |
 | CTA | Zjistit více | Zobrazit srovnání |
-| URL | `/?v=a&utm_source=meta&utm_medium=paid_social&utm_campaign=poplatky_etf_2026_10&utm_content=a_poplatky` | `/?v=b&utm_source=meta&utm_medium=paid_social&utm_campaign=poplatky_etf_2026_10&utm_content=b_dostupnost` |
+| URL | `https://poplatkomer-1z6e.vercel.app/?v=a&utm_source=meta&utm_medium=paid_social&utm_campaign=poplatky_etf_2026_10&utm_content=a_poplatky` | `https://poplatkomer-1z6e.vercel.app/?v=b&utm_source=meta&utm_medium=paid_social&utm_campaign=poplatky_etf_2026_10&utm_content=b_dostupnost` |
 
 \* Prostřední věta reklamy A doplněna při finalizaci (v zadání byla vynechávka „…“); ke schválení.
 
