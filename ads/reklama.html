@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poplatkoměr – reklamy A a B (náhled)</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='1' y='5' width='30' height='22' rx='6' fill='%231B1C1A'/%3E%3Crect x='5' y='10' width='6' height='12' rx='1' fill='%23F4F4F0'/%3E%3Crect x='13' y='10' width='6' height='12' rx='1' fill='%23F4F4F0'/%3E%3Crect x='21' y='10' width='6' height='12' rx='1' fill='%23FF5B14'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="ads.css">
+</head>
+<body>
+<!-- Náhled reklamy do mobilního feedu: text nad obrázkem, kreativa 1080 × 1350 (4:5), titulek, popis, CTA.
+     Texty podle zadání (kap. 8), čísla z ../data/*.json přes ../calc.js. ?v=a | ?v=b, ?export=1 = jen kreativa. -->
+<main class="post" id="post">
+  <header class="post-head"><span class="av" aria-hidden="true"><svg viewBox="0 0 40 24"><rect x=".5" y=".5" width="39" height="23" rx="6"/><rect class="d" x="5" y="5" width="8" height="14" rx="1.5"/><rect class="d" x="16" y="5" width="8" height="14" rx="1.5"/><rect class="d r" x="27" y="5" width="8" height="14" rx="1.5"/></svg></span><span><b>Poplatkoměr</b><small>Sponzorováno</small></span></header>
+  <p class="post-text" id="post-text"></p>
+  <div class="frame"><div class="creative" id="creative"></div></div>
+  <footer class="post-foot"><span><small id="post-desc"></small><b id="post-title"></b></span><span class="post-cta" id="post-cta"></span></footer>
+</main>
+<script src="../calc.js"></script>
+<script src="ads.js"></script>
+</body>
+</html>

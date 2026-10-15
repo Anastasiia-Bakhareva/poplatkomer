@@ -1,0 +1,17 @@
+{
+  "name": "poplatkomer-landing",
+  "private": true,
+  "description": "Poplatkoměr: konverzní landing page (lead magnet) – statický web + 2 Vercel funkce",
+  "scripts": {
+    "test": "node test_calc.js && node test_api.js && python3 -I tax_model.py",
+    "test:e2e": "node tests/e2e.js",
+    "dev": "node tests/dev.js . 4310",
+    "ads": "node tests/ads.js"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

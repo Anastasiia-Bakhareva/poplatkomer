@@ -1,0 +1,102 @@
+{
+  "assumptions": {
+    "monthly_czk": 5000,
+    "years": 20,
+    "gross_return": 0.07,
+    "dividend_yields": {
+      "S&P 500": 0.0106,
+      "MSCI World (Net)": 0.0138,
+      "MSCI Emerging Markets IMI (Net)": 0.0219
+    },
+    "sale": "ignored: assumed exempt by 3-year time test; contributions younger than 3 years would be taxed 15% on gains",
+    "fx": "currency conversion costs and CZK/USD moves ignored",
+    "tax_drag_on_dividends": {
+      "US ETF with W-8BEN": 0.15,
+      "US ETF no W-8BEN": 0.3,
+      "UCITS accumulating": 0.15,
+      "UCITS distributing": 0.2775
+    }
+  },
+  "results": [
+    {
+      "pair": "VOO vs VUAA",
+      "paid_in_czk": 1200000,
+      "final_czk": {
+        "US ETF, with W-8BEN": 2513391,
+        "US ETF, no W-8BEN": 2465262,
+        "UCITS accumulating": 2501168,
+        "UCITS distributing (same TER)": 2460427
+      },
+      "gap_vs_best_czk": {
+        "US ETF, with W-8BEN": 0,
+        "US ETF, no W-8BEN": -48129,
+        "UCITS accumulating": -12223,
+        "UCITS distributing (same TER)": -52963
+      }
+    },
+    {
+      "pair": "SPY vs SPYL",
+      "paid_in_czk": 1200000,
+      "final_czk": {
+        "US ETF, with W-8BEN": 2493717,
+        "US ETF, no W-8BEN": 2446042,
+        "UCITS accumulating": 2513391,
+        "UCITS distributing (same TER)": 2472410
+      },
+      "gap_vs_best_czk": {
+        "US ETF, with W-8BEN": -19674,
+        "US ETF, no W-8BEN": -67349,
+        "UCITS accumulating": 0,
+        "UCITS distributing (same TER)": -40980
+      }
+    },
+    {
+      "pair": "IVV vs CSPX",
+      "paid_in_czk": 1200000,
+      "final_czk": {
+        "US ETF, with W-8BEN": 2513391,
+        "US ETF, no W-8BEN": 2465262,
+        "UCITS accumulating": 2501168,
+        "UCITS distributing (same TER)": 2460427
+      },
+      "gap_vs_best_czk": {
+        "US ETF, with W-8BEN": 0,
+        "US ETF, no W-8BEN": -48129,
+        "UCITS accumulating": -12223,
+        "UCITS distributing (same TER)": -52963
+      }
+    },
+    {
+      "pair": "URTH vs IWDA / SWDA",
+      "paid_in_czk": 1200000,
+      "final_czk": {
+        "US ETF, with W-8BEN": 2440894,
+        "US ETF, no W-8BEN": 2380633,
+        "UCITS accumulating": 2452764,
+        "UCITS distributing (same TER)": 2401125
+      },
+      "gap_vs_best_czk": {
+        "US ETF, with W-8BEN": -11869,
+        "US ETF, no W-8BEN": -72130,
+        "UCITS accumulating": 0,
+        "UCITS distributing (same TER)": -51639
+      }
+    },
+    {
+      "pair": "IEMG vs EIMI",
+      "paid_in_czk": 1200000,
+      "final_czk": {
+        "US ETF, with W-8BEN": 2461049,
+        "US ETF, no W-8BEN": 2365360,
+        "UCITS accumulating": 2434333,
+        "UCITS distributing (same TER)": 2353777
+      },
+      "gap_vs_best_czk": {
+        "US ETF, with W-8BEN": 0,
+        "US ETF, no W-8BEN": -95688,
+        "UCITS accumulating": -26715,
+        "UCITS distributing (same TER)": -107272
+      }
+    }
+  ]
+}
